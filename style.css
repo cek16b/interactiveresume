@@ -1,0 +1,140 @@
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+p{
+    
+    background-color: rgba(255,255,255,0.6);
+    padding: 0 40px;
+    margin: 0;
+}
+body{
+    background: rgba(36, 171, 178, 1)
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    line-height: 1.6em;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+img{
+    float: left;
+    border: 0.5px solid #0915F5;
+    padding: 6px;
+    margin: 0 0 6px 12px;
+}
+ol{
+     width: 600px;
+    background-color: rgba(255,255,255,0.4);
+    margin-left: 60px;
+}
+ol li{
+    padding-left: 0;
+}
+h1{
+     width: 600px;
+     padding: 0 40px;
+    background-color: rgba(255,255,255,0.4);
+    margin: 0;
+    border-bottom: 4px solid #0915F5;
+    letter-spacing: 0.3em;
+}
+h2{
+     width: 600px;
+     padding: 0 40px;
+    
+    margin: 0;
+    border-bottom: 2px solid #0915F5;
+}
+h3{
+     width: 600px;
+     padding: 0 40px;
+    background-color: rgba(255,255,255,0.4);
+    margin: 0;
+}
+h5{
+     width: 100px;
+     
+    background-color: rgba(255,255,255,0.4);
+    margin: 0;
+    
+}
+h6{
+     width: 100px;
+     
+    background-color: rgba(255,255,255,0.4);
+    margin: 0;
+}
+footer{
+     
+     padding: 0 40px;
+    background-color: rgba(255,255,255,0.4);
+    margin: 0;
+    font-size: .7em;
+}
+p{
+  padding: 40px;  
+}
+a:link{
+    color: #000000;
+}
+a:visited{
+    color: #EC4683;
+}
+a:active{
+    color: #FE0303;
+}
+a:hover{
+    color: #03FE06;
+}
+table{
+    float: left;
+    padding: 1px;
+    border: 5px solid #000000;
+}
+/*DIV STYLES FOR PAGE LAYOUT*/
+#container{
+    width: 900px;
+    margin: 0 auto;
+    border: 10px dashed #f00;
+    background-color: #fff;
+    overflow: hidden;
+}
+#header{
+    width: 100%;
+    padding: 40px;
+    background-color: #eee;
+    border-bottom: 3px solid #f00;
+}
+#content{
+    width: 700px;
+    float: left;
+    border-bottom: 40px;
+    background-color: #eee;
+    
+}
+#sidebar{
+    width: 100px;
+    padding: 40px;
+    float: left;
+    border: 3px solid #f00;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #888;
+    
+}
+#sidebar p{
+    padding: 5px;
+    background: #eee;
+    border: 3px solid #f00;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #888;
+    
+}
+#footer{
+     width: 100%;
+    
+    background-color: #eee;
+    border-top: 3px solid #f00;
+    clear: both;
+}
